@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IncidentFlow">
         <activity
+            android:name=".ui.incidents.CreateIncidentActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.dashboard.DashboardActivity"
             android:exported="false" />
         <activity

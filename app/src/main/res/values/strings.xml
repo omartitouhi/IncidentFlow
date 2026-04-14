@@ -53,4 +53,21 @@
     <string name="dashboard_error_generic">Une erreur est survenue lors du chargement des incidents.</string>
     <string name="dashboard_retry">Reessayer</string>
     <string name="dashboard_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
+    <string name="dashboard_create_incident_button">Creer un ticket d incident</string>
+    <string name="incident_create_title">Nouveau ticket incident</string>
+    <string name="incident_title_hint">Titre</string>
+    <string name="incident_description_hint">Description</string>
+    <string name="incident_category_hint">Categorie</string>
+    <string name="incident_priority_hint">Priorite</string>
+    <string name="incident_building_hint">Batiment</string>
+    <string name="incident_floor_hint">Etage</string>
+    <string name="incident_room_hint">Salle</string>
+    <string name="incident_choose_image_button">Choisir une image (optionnel)</string>
+    <string name="incident_image_preview_content_desc">Apercu image incident</string>
+    <string name="incident_save_button">Enregistrer le ticket</string>
+    <string name="incident_create_success">Incident cree avec succes.</string>
+    <string name="incident_error_network">Erreur reseau. Impossible d enregistrer l incident.</string>
+    <string name="incident_error_generic">Erreur lors de l enregistrement de l incident.</string>
+    <string name="incident_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
+    <string name="incident_user_not_connected">Vous devez etre connecte pour creer un incident.</string>
 </resources>

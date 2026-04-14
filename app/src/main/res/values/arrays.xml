@@ -1,0 +1,18 @@
+<resources>
+    <string-array name="incident_categories">
+        <item>Reseau</item>
+        <item>Electricite</item>
+        <item>Plomberie</item>
+        <item>Materiel informatique</item>
+        <item>Securite</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="incident_priorities">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Critical</item>
+    </string-array>
+</resources>
+

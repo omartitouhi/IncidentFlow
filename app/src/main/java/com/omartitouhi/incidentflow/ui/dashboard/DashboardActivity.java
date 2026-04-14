@@ -11,6 +11,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.omartitouhi.incidentflow.MainActivity;
 import com.omartitouhi.incidentflow.R;
 import com.omartitouhi.incidentflow.ui.auth.LoginActivity;
+import com.omartitouhi.incidentflow.ui.incidents.CreateIncidentActivity;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         TextView welcomeText = findViewById(R.id.dashboardWelcomeText);
         Button logoutButton = findViewById(R.id.dashboardLogoutButton);
+        Button createIncidentButton = findViewById(R.id.dashboardCreateIncidentButton);
 
         if (auth.getCurrentUser() != null && auth.getCurrentUser().getEmail() != null) {
             welcomeText.setText(getString(R.string.dashboard_welcome, auth.getCurrentUser().getEmail()));
@@ -40,6 +42,10 @@ public class DashboardActivity extends AppCompatActivity {
             startActivity(new Intent(this, MainActivity.class));
             finish();
         });
+
+        createIncidentButton.setOnClickListener(v ->
+                startActivity(new Intent(this, CreateIncidentActivity.class))
+        );
 
         if (savedInstanceState == null) {
             getSupportFragmentManager()

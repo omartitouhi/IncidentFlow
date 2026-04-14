@@ -37,4 +37,20 @@
     <string name="dashboard_title">Dashboard</string>
     <string name="dashboard_logout_button">Se deconnecter</string>
     <string name="dashboard_welcome">Bienvenue %1$s</string>
+    <string name="dashboard_overview_title">Vue globale des incidents</string>
+    <string name="dashboard_total_label">Nombre total d incidents</string>
+    <string name="dashboard_open_label">Incidents ouverts</string>
+    <string name="dashboard_in_progress_label">Incidents en cours</string>
+    <string name="dashboard_resolved_label">Incidents resolus</string>
+    <string name="dashboard_critical_label">Incidents critiques</string>
+    <string name="dashboard_zero_value">0</string>
+    <string name="dashboard_weather_title">Meteo du jour</string>
+    <string name="dashboard_weather_placeholder">API meteo non ajoutee.</string>
+    <string name="dashboard_empty_title">Aucun incident a afficher</string>
+    <string name="dashboard_empty_message">Les statistiques apparaitront des que des incidents seront enregistres.</string>
+    <string name="dashboard_error_title">Impossible de charger le dashboard</string>
+    <string name="dashboard_error_network">Erreur reseau. Verifiez votre connexion internet.</string>
+    <string name="dashboard_error_generic">Une erreur est survenue lors du chargement des incidents.</string>
+    <string name="dashboard_retry">Reessayer</string>
+    <string name="dashboard_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
 </resources>

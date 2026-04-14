@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IncidentFlow</string>
+    <string name="main_welcome">Campus IncidentFlow</string>
+    <string name="main_register_cta">Creer un compte</string>
+    <string name="register_title">Inscription utilisateur</string>
+    <string name="register_full_name_hint">Nom complet</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_password_hint">Mot de passe</string>
+    <string name="register_confirm_password_hint">Confirmer le mot de passe</string>
+    <string name="register_department_hint">Departement / filiere (optionnel)</string>
+    <string name="register_button">S inscrire</string>
+    <string name="register_success">Compte cree avec succes.</string>
+    <string name="register_error_generic">Impossible de creer le compte. Reessayez.</string>
+    <string name="register_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
+</resources>

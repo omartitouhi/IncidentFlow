@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262421840660",
+    "project_id": "projetincidentflow",
+    "storage_bucket": "projetincidentflow.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262421840660:android:384cd52b23d60461f83801",
+        "android_client_info": {
+          "package_name": "com.omartitouhi.incidentflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvBOUeFDXIz4jByCPMLfDz7T_ytwCqNQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.omartitouhi.incidentflow;
+package com.omartitouhi.incidentflow.ui.auth;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -13,6 +13,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.omartitouhi.incidentflow.R;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -177,5 +178,6 @@ public class RegisterActivity extends AppCompatActivity {
         registerButton.setEnabled(!loading);
     }
 }
+
 
 

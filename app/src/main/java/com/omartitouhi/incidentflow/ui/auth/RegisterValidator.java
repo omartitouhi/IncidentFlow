@@ -1,4 +1,4 @@
-package com.omartitouhi.incidentflow;
+package com.omartitouhi.incidentflow.ui.auth;
 
 import java.util.regex.Pattern;
 
@@ -85,4 +85,5 @@ public final class RegisterValidator {
 		return ValidationResult.ok();
 	}
 }
+
 

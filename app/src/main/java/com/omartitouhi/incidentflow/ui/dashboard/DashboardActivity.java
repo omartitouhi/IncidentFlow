@@ -12,6 +12,7 @@ import com.omartitouhi.incidentflow.MainActivity;
 import com.omartitouhi.incidentflow.R;
 import com.omartitouhi.incidentflow.ui.auth.LoginActivity;
 import com.omartitouhi.incidentflow.ui.incidents.CreateIncidentActivity;
+import com.omartitouhi.incidentflow.ui.incidents.IncidentsListFragment;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -32,6 +33,7 @@ public class DashboardActivity extends AppCompatActivity {
         TextView welcomeText = findViewById(R.id.dashboardWelcomeText);
         Button logoutButton = findViewById(R.id.dashboardLogoutButton);
         Button createIncidentButton = findViewById(R.id.dashboardCreateIncidentButton);
+        Button myIncidentsButton = findViewById(R.id.dashboardMyIncidentsButton);
 
         if (auth.getCurrentUser() != null && auth.getCurrentUser().getEmail() != null) {
             welcomeText.setText(getString(R.string.dashboard_welcome, auth.getCurrentUser().getEmail()));
@@ -45,6 +47,14 @@ public class DashboardActivity extends AppCompatActivity {
 
         createIncidentButton.setOnClickListener(v ->
                 startActivity(new Intent(this, CreateIncidentActivity.class))
+        );
+
+        myIncidentsButton.setOnClickListener(v ->
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.dashboardFragmentContainer, new IncidentsListFragment())
+                        .addToBackStack("incidents_list")
+                        .commit()
         );
 
         if (savedInstanceState == null) {

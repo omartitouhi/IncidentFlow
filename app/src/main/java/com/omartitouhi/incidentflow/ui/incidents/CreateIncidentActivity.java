@@ -152,6 +152,7 @@ public class CreateIncidentActivity extends AppCompatActivity {
         incident.put("building", building);
         incident.put("floor", floor);
         incident.put("room", room);
+        incident.put("location", building + " - " + floor + " - " + room);
         incident.put("status", "Open");
         incident.put("createdAt", FieldValue.serverTimestamp());
         incident.put("createdBy", currentUser.getUid());

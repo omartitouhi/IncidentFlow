@@ -54,6 +54,7 @@
     <string name="dashboard_retry">Reessayer</string>
     <string name="dashboard_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
     <string name="dashboard_create_incident_button">Creer un ticket d incident</string>
+    <string name="dashboard_my_incidents_button">Voir mes incidents</string>
     <string name="incident_create_title">Nouveau ticket incident</string>
     <string name="incident_title_hint">Titre</string>
     <string name="incident_description_hint">Description</string>
@@ -70,4 +71,18 @@
     <string name="incident_error_generic">Erreur lors de l enregistrement de l incident.</string>
     <string name="incident_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
     <string name="incident_user_not_connected">Vous devez etre connecte pour creer un incident.</string>
+    <string name="incident_list_title">Mes incidents</string>
+    <string name="incident_list_empty_title">Aucun incident trouve</string>
+    <string name="incident_list_empty_message">Vos incidents apparaitront ici des qu ils seront crees.</string>
+    <string name="incident_list_error_title">Impossible de charger la liste</string>
+    <string name="incident_list_error_network">Erreur reseau. Verifiez votre connexion internet.</string>
+    <string name="incident_list_error_generic">Une erreur est survenue lors du chargement des incidents.</string>
+    <string name="incident_list_retry">Reessayer</string>
+    <string name="incident_list_firebase_not_configured">Firebase n est pas configure. Ajoutez le fichier google-services.json.</string>
+    <string name="incident_list_not_connected">Vous devez etre connecte pour consulter vos incidents.</string>
+    <string name="incident_list_category_value">Categorie: %1$s</string>
+    <string name="incident_list_priority_value">Priorite: %1$s</string>
+    <string name="incident_list_status_value">Statut: %1$s</string>
+    <string name="incident_list_date_value">Date: %1$s</string>
+    <string name="incident_list_location_value">Localisation: %1$s</string>
 </resources>

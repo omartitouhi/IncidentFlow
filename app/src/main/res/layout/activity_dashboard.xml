@@ -27,6 +27,13 @@
         android:layout_marginTop="8dp"
         android:text="@string/dashboard_create_incident_button" />
 
+    <Button
+        android:id="@+id/dashboardMyIncidentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dashboard_my_incidents_button" />
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/dashboardFragmentContainer"
         android:layout_width="match_parent"
